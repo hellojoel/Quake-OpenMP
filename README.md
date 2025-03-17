@@ -13,7 +13,7 @@ This project implements a parallel computing model based on Loukas Kallivokas an
 ### **Compilation**
 Run the provided **Makefile** to compile the program:
 ```sh
-gcc -fopenmp -o quake quake.c -lm
+gcc -fopenmp -o quake quake_omp.c -lm
 ```
 
 ### **Running the Program**
